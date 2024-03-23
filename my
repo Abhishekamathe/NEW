@@ -1,0 +1,14 @@
+import random
+
+# Create an empty list
+int_list = []
+
+# Loop 10 times to generate 10 random integers
+for _ in range(10):
+  # Generate a random integer between 90 and 130 (inclusive)
+  num = random.randint(90, 130)
+  # Append the random integer to the list
+  int_list.append(num)
+
+# Print the list
+print(int_list)
